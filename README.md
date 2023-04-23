@@ -1,1 +1,15 @@
 # Data-Repository
+This is the data repository for the case study section of the paper "Distributed Slack-bus Based DC Optimal Power Flow with Transmission Loss: A Second-Order Cone Programming Approach and Sufficient Conditions". The authors compared their proposed method with four existing methods: 1) the ACOPF model; 2) the lossless DCOPF model; 3) the DCOPF-based method in [1], which modeled the transmission loss linearly and adopted the iterative algorithm; and 4) the DCOPF-based methods modeling the nonlinear transmission loss with a single slack bus in [2]. The comparison data came from 13 small systems and 9 large systems from MATPOWER 8.0b[3]-[4], including real-world cases such as the Polish 2383-bus systems.
+In cases where the transmission capacity of certain branches is not provided, the limit is assumed to be proportional to the total load demand. The authors have provided the specific modification results using the standard MATPOWER case format in the folder "Data of Modified Cases". If readers wish to understand the data format of the case studies, they can refer to the MATPOWER User's Manual, which can be downloaded from https://matpower.org/doc/.
+
+
+
+
+
+
+
+References
+[1]	B. Eldridge, R. O'Neill and A. Castillo, "An improved method for the DCOPF with losses," IEEE Trans. Power Syst., vol. 33, no. 4, pp. 3779-3788, Jul. 2018.
+[2]	T. Ding, C. Zhao, T. Chen and R. Liu, "Conic programming-based Lagrangian relaxation method for DCOPF with transmission losses and its zero-gap sufficient condition," IEEE Trans. Power Syst., vol. 32, no. 5, pp. 3852-3861, Sept. 2017.
+[3]	R. D. Zimmerman, C. E. Murillo-Sánchez and R. J. Thomas, "MATPOWER: steady-state operations, planning, and analysis tools for power systems research and education," IEEE Trans. Power Syst., vol. 26, no. 1, pp. 12-19, Feb. 2011.
+[4]	C. Josz, S. Fliscounakis, J. Maeght, et al, “AC Power Flow Data in Matpower and QCQP Format: iTesla, RTE Snapshots, and PEGASE.” [Online] Available: https://doi.org/10.48550/arXiv.1603.01533.
