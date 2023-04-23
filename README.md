@@ -23,7 +23,7 @@ Indicates the system name of the test.
 Indicates the number of the bus corresponding to the calculated LMP.
 
 ### For "Data of Fig.1 Comparison of the accuracy of LMP by DCOPF-based methods"
-This is the raw data presented in Figure 1 of the paper.
+This is the raw data presented in Fig. 1 of the paper.
 #### Relative LMP Error
 We compare the LMPs obtained from the DCOPF-based models with those obtained from the ACOPF models to obtain the relative LMP errors. The calculation method can be obtained specifically from Formula (60) in the paper.
 #### Methods
@@ -36,8 +36,22 @@ Indicates whether the system is large or small. We classify systems with 500 or 
 Indicates the system name of the test.
 
 ### For "Data of Fig.2 Comparison of LMP errors in the IEEE 24-bus system"
+This is the raw data presented in Fig. 2 of the paper.
+#### LMP error($/MWh)
+Absolute error in the calculation of LMP, when compared with the LMPs obtained by solving ACOPF.
+#### Method
+The calculation methods used, including Method in [22] (corresponding to reference [2] in README) and Proposed method. Their detailed explanations can be found in the paper.
+#### Bus Number
+Indicates the number of the bus corresponding to the calculated LMP.
 
-
+### For "Data of Fig.3 Comparison of offering price and congestion component of LMP for marginal generators"
+This is the raw data presented in Fig. 3 of the paper.
+#### Table headers
+The table's horizontal header (Bus Number) represents the number of nodes in the system being tested.  Here, 30' and 2746' correspond to the systems named 'case_ieee30' and 'case2746wp', respectively.  The vertical header (GEN XX) indicates the number of each unit being tested in the example.
+#### LMP (congestion)
+Shows the size of the congestion component of the LMP at the node where the unit is located, measured in $/MWh.
+#### Offering price
+Represents the unit's marginal offering price, measured in $/MWh.
 
 ## References
 [1]	B. Eldridge, R. O'Neill and A. Castillo, "An improved method for the DCOPF with losses," IEEE Trans. Power Syst., vol. 33, no. 4, pp. 3779-3788, Jul. 2018.
