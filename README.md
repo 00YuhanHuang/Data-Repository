@@ -54,7 +54,7 @@ Shows the size of the congestion component of the LMP at the node where the unit
 Represents the unit's marginal offering price, measured in $/MWh.
 
 ## References
-[1]	B. Eldridge, R. O'Neill and A. Castillo, "An improved method for the DCOPF with losses," IEEE Trans. Power Syst., vol. 33, no. 4, pp. 3779-3788, Jul. 2018.
-[2]	T. Ding, C. Zhao, T. Chen and R. Liu, "Conic programming-based Lagrangian relaxation method for DCOPF with transmission losses and its zero-gap sufficient condition," IEEE Trans. Power Syst., vol. 32, no. 5, pp. 3852-3861, Sept. 2017.
-[3]	R. D. Zimmerman, C. E. Murillo-Sánchez and R. J. Thomas, "MATPOWER: steady-state operations, planning, and analysis tools for power systems research and education," IEEE Trans. Power Syst., vol. 26, no. 1, pp. 12-19, Feb. 2011.
-[4]	C. Josz, S. Fliscounakis, J. Maeght, et al, “AC Power Flow Data in Matpower and QCQP Format: iTesla, RTE Snapshots, and PEGASE.” [Online] Available: https://doi.org/10.48550/arXiv.1603.01533.
+##### [1]	B. Eldridge, R. O'Neill and A. Castillo, "An improved method for the DCOPF with losses," IEEE Trans. Power Syst., vol. 33, no. 4, pp. 3779-3788, Jul. 2018.
+##### [2]	T. Ding, C. Zhao, T. Chen and R. Liu, "Conic programming-based Lagrangian relaxation method for DCOPF with transmission losses and its zero-gap sufficient condition," IEEE Trans. Power Syst., vol. 32, no. 5, pp. 3852-3861, Sept. 2017.
+##### [3]	R. D. Zimmerman, C. E. Murillo-Sánchez and R. J. Thomas, "MATPOWER: steady-state operations, planning, and analysis tools for power systems research and education," IEEE Trans. Power Syst., vol. 26, no. 1, pp. 12-19, Feb. 2011.
+##### [4]	C. Josz, S. Fliscounakis, J. Maeght, et al, “AC Power Flow Data in Matpower and QCQP Format: iTesla, RTE Snapshots, and PEGASE.” [Online] Available: https://doi.org/10.48550/arXiv.1603.01533.
