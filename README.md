@@ -49,9 +49,9 @@ This is the raw data presented in Fig. 3 of the paper.
 #### Table headers
 The table's horizontal header (Bus Number) represents the number of nodes in the system being tested.  Here, 30' and 2746' correspond to the systems named 'case_ieee30' and 'case2746wp', respectively.  The vertical header (GEN XX) indicates the number of each unit being tested in the example.
 #### LMP (congestion)
-Shows the size of the congestion component of the LMP at the node where the unit is located, measured in $/MWh.
+Shows the size of the congestion component of the LMP at the node where the unit is located, measured in $/MWh. The symbol '/' denotes that the generator is not a marginal generator.
 #### Offering price
-Represents the unit's marginal offering price, measured in $/MWh.
+Represents the offering price of the marginal generoters, measured in $/MWh. The symbol '/' denotes that the generator is not a marginal generator.
 
 ## References
 ##### [1]	B. Eldridge, R. O'Neill and A. Castillo, "An improved method for the DCOPF with losses," IEEE Trans. Power Syst., vol. 33, no. 4, pp. 3779-3788, Jul. 2018.
